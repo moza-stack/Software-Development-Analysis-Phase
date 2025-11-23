@@ -1,0 +1,155 @@
+Define user stories and their format (As a… I want… So that 
+
+User stories are short, simple descriptions of a feature written from the perspective of the end user. They capture what the user needs, why they need it, and who benefits. User stories are commonly used in Agile and Scrum to clarify requirements without going into technical details. 
+
+ 
+
+ 
+
+✅ Definition 
+
+A user story is a brief, conversational requirement that expresses: 
+
+The user role 
+
+The goal or feature needed 
+
+The benefit or reason 
+
+It focuses on value rather than technical specifications. 
+
+ 
+
+Explain how to write effective user stories 
+
+Use the Standard Format 
+
+The classic user story format is: 
+
+As a [user role], I want [goal] so that [reason/value]. 
+
+User role: Who is the feature for? Be specific. 
+
+Goal: What does the user want to accomplish? 
+
+Reason/value: Why is this goal important? What problem does it solve or benefit does it provide? 
+
+Example: 
+
+As a frequent traveler, I want to receive notifications about flight delays so that I can adjust my schedule promptly. 
+
+ 
+
+2. Keep Stories Small and Focused 
+
+Stories should be small enough to be completed in a single sprint. 
+
+If a story is too large, break it into smaller ones (these are often called epics before splitting). 
+
+Each story should represent a single user need or goal. 
+
+ 
+
+3. Make Stories Testable 
+
+A good user story should be verifiable. 
+
+Ask: How will we know this story is done? 
+
+Include acceptance criteria to define conditions of satisfaction. 
+
+Example of acceptance criteria for the flight notification story: 
+
+User receives a push notification within 10 minutes of a flight delay. 
+
+Notifications include flight number, new departure time, and gate information. 
+
+Notifications are received on both Android and iOS devices. 
+
+ 
+
+4. Focus on User Value, Not Technical Implementation 
+
+Avoid specifying how to implement the feature in the story. 
+
+The story should describe what the user wants, not how developers will do it. 
+
+Wrong: 
+
+Implement a push notification system for flight delays using Firebase. 
+
+Right: 
+
+As a traveler, I want to receive flight delay notifications so that I can adjust my schedule. 
+
+ 
+
+5. Use INVEST Principles 
+
+Effective user stories often follow the INVEST acronym: 
+
+Independent: Can be developed separately from other stories. 
+
+Negotiable: Flexible and open for discussion with the team. 
+
+Valuable: Provides clear value to the user. 
+
+Estimable: Can be estimated for effort and complexity. 
+
+Small: Fits within a sprint. 
+
+Testable: Has clear acceptance criteria. 
+
+ 
+
+6. Refine and Collaborate 
+
+User stories are not static; refine them with the team during backlog grooming/refinement sessions. 
+
+Include product owners, developers, and testers to clarify requirements, dependencies, and edge cases. 
+
+ 
+
+7. Example of a Full User Story 
+
+Story: 
+
+As a registered user, I want to reset my password via email so that I can regain access if I forget it. 
+
+Acceptance Criteria: 
+
+User can request a password reset from the login page. 
+
+User receives an email with a secure reset link. 
+
+Password must meet security criteria. 
+
+Confirmation message appears after a successful reset. 
+
+Describe acceptance criteria and their importance 
+
+ 
+
+Acceptance criteria are a set of specific conditions or requirements that a product, feature, or user story must satisfy for it to be considered complete and acceptable by stakeholders. They act as a clear definition of “done” and guide both development and testing. 
+
+Key Characteristics of Acceptance Criteria: 
+
+Clear and Specific: They describe exactly what must be true for the functionality to be accepted. 
+
+Measurable and Testable: They can be verified through tests or inspections. 
+
+Agreed Upon: They are defined collaboratively by stakeholders, product owners, and the development team. 
+
+Objective: They minimize ambiguity, ensuring everyone understands the expected outcome. 
+
+Importance of Acceptance Criteria: 
+
+Sets Expectations: Clearly communicates what the team needs to deliver and what stakeholders expect. 
+
+Guides Development: Helps developers understand the scope of work and avoid unnecessary features. 
+
+Supports Testing: Provides a basis for creating test cases and validating that the feature works correctly. 
+
+Reduces Misunderstandings: Minimizes ambiguity and disagreements about whether a feature is complete. 
+
+Improves Quality: Encourages consideration of edge cases and requirements upfront, reducing bugs and rework. 
