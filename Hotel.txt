@@ -1,0 +1,266 @@
+High-Level Modules in the Hotel System
+
+Reservation & Booking Management
+
+Room & Rate Management
+
+Guest Management
+
+Check-in and Check-out Operations
+
+Housekeeping Scheduling & Tracking
+
+Food & Room Service Management
+
+Billing & Payments
+
+Staff Management
+
+Reporting & Analytics
+
+2. User Stories (15 Total)
+
+Below are 15 complete user stories grouped by functional area.
+
+A. Reservation & Booking
+US-01: Create Reservation
+
+As a guest
+I want to book a room online
+So that I can reserve a stay in advance.
+
+Acceptance Criteria
+
+User can enter check-in and check-out date
+
+System checks room availability
+
+System generates booking confirmation number
+
+System sends confirmation email
+
+US-02: Modify / Cancel Reservation
+
+As a guest
+I want to modify or cancel an existing reservation
+So that I can adjust my plans.
+
+Acceptance Criteria
+
+User can change dates, room type, or number of guests
+
+Availability is revalidated
+
+Cancellation rules are applied
+
+System sends updated confirmation
+
+B. Check-in / Check-out
+US-03: Guest Check-in
+
+As a receptionist
+I want to check guests in
+So that they can begin their stay.
+
+Acceptance Criteria
+
+Booking is validated
+
+ID verification workflow is supported
+
+Room is marked “occupied”
+
+Digital or printed key is issued
+
+US-04: Guest Check-out
+
+As a receptionist
+I want to check guests out
+So that I can complete their stay and free the room.
+
+Acceptance Criteria
+
+All charges are calculated (room, tax, room service)
+
+Payment is processed
+
+Room status updates to “needs cleaning”
+
+Receipt is generated
+
+C. Room Service / Food Ordering
+US-05: Order Room Service
+
+As a guest
+I want to order food from the room service menu
+So that meals are delivered to my room.
+
+Acceptance Criteria
+
+Menu items are listed with prices
+
+User can choose delivery time
+
+Charges are added to guest bill
+
+Kitchen receives the order notification
+
+US-06: Track Room Service
+
+As a staff member
+I want to update room service order status
+So that guests can track progress.
+
+Acceptance Criteria
+
+Status options: Received → Preparing → On the way → Delivered
+
+Guest receives real-time updates
+
+Staff can comment or attach notes
+
+D. Housekeeping
+US-07: Assign Housekeeping Tasks
+
+As a housekeeping manager
+I want to assign room cleaning tasks
+So that the hotel stays well-maintained.
+
+Acceptance Criteria
+
+System shows rooms needing cleaning
+
+Tasks can be assigned to staff members
+
+Staff receives mobile notifications
+
+Status updates: Pending → In progress → Completed
+
+US-08: Report Room Condition
+
+As a housekeeper
+I want to report room condition
+So that maintenance issues are documented.
+
+Acceptance Criteria
+
+Staff can report issues (broken items, damage, missing supplies)
+
+Staff can upload photos
+
+System notifies maintenance team
+
+E. Billing & Payments
+US-09: View Bill
+
+As a guest
+I want to view my stay charges
+So that I can understand my bill before checkout.
+
+Acceptance Criteria
+
+Bill is updated in real time
+
+Shows taxes, service fees, room service charges
+
+Guests can download or print PDF
+
+US-10: Pay Bill
+
+As a guest
+I want to pay my hotel bill online
+So that I can check out faster.
+
+Acceptance Criteria
+
+Supports credit card, debit card, and digital wallets
+
+Shows payment confirmation
+
+Bill is marked as fully paid
+
+Receipt is emailed
+
+F. Room & Rate Management
+US-11: Add/Edit Room Types
+
+As a hotel manager
+I want to configure room types and rates
+So that guests see correct options.
+
+Acceptance Criteria
+
+Manager can define room categories
+
+Manager can set base price and seasonal pricing
+
+Rate updates are reflected immediately in booking system
+
+US-12: Update Room Status
+
+As a receptionist
+I want to change room status
+So that rooms are accurately tracked.
+
+Acceptance Criteria
+
+Status: Available / Occupied / Needs Cleaning / Out of Order
+
+Status changes trigger housekeeping workflows
+
+G. Staff & HR Management
+US-13: Staff Login & Roles
+
+As a manager
+I want staff accounts with roles
+So that system access is controlled.
+
+Acceptance Criteria
+
+Roles: Reception, Housekeeping, Kitchen, Manager
+
+Access is restricted based on role
+
+Staff activity is logged
+
+US-14: Staff Shift Scheduling
+
+As a hotel manager
+I want to assign staff shifts
+So that hotel operations run smoothly.
+
+Acceptance Criteria
+
+Manager can create weekly schedules
+
+Staff receives notifications
+
+Staff can request shift changes
+
+H. Reporting
+US-15: Generate Occupancy Report
+
+As a hotel manager
+I want to view occupancy statistics
+So that I can make operational decisions
+
+
+| ID    | User Story                | Priority | Business Value (1–10) | Complexity (1–10) | Story Points |
+| ----- | ------------------------- | -------- | --------------------- | ----------------- | ------------ |
+| US-01 | Create Reservation        | High     | 10                    | 7                 | 13           |
+| US-02 | Modify/Cancel Reservation | High     | 9                     | 6                 | 10           |
+| US-03 | Guest Check-in            | High     | 10                    | 5                 | 8            |
+| US-04 | Guest Check-out           | High     | 10                    | 5                 | 8            |
+| US-05 | Room Service Ordering     | Medium   | 8                     | 6                 | 8            |
+| US-06 | Track Room Service        | Medium   | 7                     | 5                 | 5            |
+| US-07 | Assign Housekeeping Tasks | Medium   | 8                     | 4                 | 5            |
+| US-08 | Report Room Condition     | Medium   | 7                     | 5                 | 5            |
+| US-09 | View Bill                 | High     | 9                     | 5                 | 8            |
+| US-10 | Pay Bill                  | High     | 10                    | 7                 | 13           |
+| US-11 | Room Type & Rate Setup    | Medium   | 7                     | 6                 | 8            |
+| US-12 | Update Room Status        | Medium   | 6                     | 4                 | 3            |
+| US-13 | Staff Login & Roles       | High     | 8                     | 7                 | 13           |
+| US-14 | Staff Scheduling          | Medium   | 6                     | 5                 | 5            |
+| US-15 | Occupancy Reports         | Medium   | 7                     | 6                 | 8            |
+
+
