@@ -1,0 +1,123 @@
+Explain what a product backlog is and its purpose 
+
+A Product Backlog is a prioritized, evolving list of everything that needs to be built in a product. It is one of the core artifacts in Scrum and serves as the single source of truth for all work the team may do in the future. 
+
+1. Organize and Prioritize Work 
+
+2. Provide Transparency 
+
+3. Guide Sprint Planning 
+
+4. Enable Adaptation 
+
+5. Align Stakeholders 
+
+ 
+
+Describe how to create and structure a product backlog 
+
+1. Start with the Product Vision 
+
+2. Gather Requirements 
+
+3. Create Backlog Items 
+
+4. Prioritize the Backlog 
+
+5. Refine (Groom) the Backlog Regularly 
+
+6. Structure the Backlog 
+
+7. Add Estimates 
+
+8. Keep the Backlog Transparent 
+
+Discuss backlog prioritization techniques 
+
+Backlog prioritization is the process of deciding what to build first so the team delivers maximum value early and continuously. Many techniques exist, each suited for different contexts. Below is a clear and practical overview of the most widely used backlog prioritization techniques, their purpose, strengths, and when to use each. 
+
+ 
+
+Explain backlog refinement and maintenance 
+
+ 
+
+Backlog Refinement 
+
+Backlog refinement is a continuous process where the Product Owner and the development team review and update the Product Backlog to ensure items are clear, detailed, and prioritized. 
+
+What happens during refinement? 
+
+1. Clarifying User Stories 
+
+Breaking large items (epics) into smaller, clear stories 
+
+Adding missing details, acceptance criteria, and business rules 
+
+2. Estimating 
+
+The team assigns effort estimates (e.g., story points) 
+
+Helps forecast sprint capacity and planning 
+
+3. Reprioritizing 
+
+Items are ordered based on: 
+
+Business value 
+
+Urgency 
+
+Dependencies 
+
+Risk 
+
+4. Removing or Updating Items 
+
+Removing outdated or irrelevant items 
+
+Modifying stories as business needs evolve 
+
+Why backlog refinement is important 
+
+Ensures the team always has “ready” items to pick for the next sprint 
+
+Reduces confusion during Sprint Planning 
+
+Improves delivery flow and predictability 
+
+Aligns the backlog with the current business goals 
+
+ 
+
+Backlog Maintenance 
+
+Backlog maintenance refers to the ongoing management of the backlog to keep it clean, consistent, and relevant over time. 
+
+Activities involved in maintenance: 
+
+1. Keeping the backlog organized 
+
+Making sure items follow a consistent format 
+
+Checking that all stories have acceptance criteria 
+
+2. Regularly updating items 
+
+Adding new stories based on feedback or new requirements 
+
+Updating existing items when business priorities change 
+
+3. Ensuring correct prioritization 
+
+Continually verifying the top items truly bring the most value 
+
+4. Managing dependencies and risks 
+
+Identifying technical, design, or external dependencies 
+
+Adjusting items to reduce delivery risks 
+
+5. Ensuring items meet the Definition of Ready (DoR) 
+
+Confirming stories are “ready” to be worked on before entering the sprint 
