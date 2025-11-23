@@ -44,3 +44,24 @@ Software Development Analysis Phase
 | Low      | Patient provides feedback                 | 3            |
 | Low      | Doctor views patient list                 | 3            |
 
+
+
+| ID    | User Story                | Priority | Business Value (1–10) | Complexity (1–10) | Story Points |
+| ----- | ------------------------- | -------- | --------------------- | ----------------- | ------------ |
+| US-01 | Create Reservation        | High     | 10                    | 7                 | 13           |
+| US-02 | Modify/Cancel Reservation | High     | 9                     | 6                 | 10           |
+| US-03 | Guest Check-in            | High     | 10                    | 5                 | 8            |
+| US-04 | Guest Check-out           | High     | 10                    | 5                 | 8            |
+| US-05 | Room Service Ordering     | Medium   | 8                     | 6                 | 8            |
+| US-06 | Track Room Service        | Medium   | 7                     | 5                 | 5            |
+| US-07 | Assign Housekeeping Tasks | Medium   | 8                     | 4                 | 5            |
+| US-08 | Report Room Condition     | Medium   | 7                     | 5                 | 5            |
+| US-09 | View Bill                 | High     | 9                     | 5                 | 8            |
+| US-10 | Pay Bill                  | High     | 10                    | 7                 | 13           |
+| US-11 | Room Type & Rate Setup    | Medium   | 7                     | 6                 | 8            |
+| US-12 | Update Room Status        | Medium   | 6                     | 4                 | 3            |
+| US-13 | Staff Login & Roles       | High     | 8                     | 7                 | 13           |
+| US-14 | Staff Scheduling          | Medium   | 6                     | 5                 | 5            |
+| US-15 | Occupancy Reports         | Medium   | 7                     | 6                 | 8            |
+
+
